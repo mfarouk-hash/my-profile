@@ -1,0 +1,183 @@
+ <!DOCTYPE html>
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>My PROFILE</title>
+		<style type="text/css">
+		
+			body{
+				margin:0;
+				padding:0;
+				font-family: Sans-Serif;
+				line-height: 1.5em;
+			}
+			
+			#header {
+				background: rgb(152, 157, 206);
+				height: 100px;
+			}
+			
+			#header h1 {
+				margin: 0;
+				padding-top: 15px;
+			}
+			
+			#mainwrapper {
+				overflow: hidden;
+			}
+			
+			#contentwrapper{
+				float: left;
+				width: 100%;
+			}
+			
+			#content {
+				margin-right: 460px; /* Width of '#rightmenu' and '#leftmenu' combined. */
+				padding-bottom: 10010px;
+				margin-bottom: -10000px;
+			}
+			
+			#leftmenu {
+				float: left;
+				width: 250px;
+				margin-left: -460px; /* Width of '#rightmenu' and '#leftmenu' combined. */
+				padding-bottom: 10010px;
+				margin-bottom: -10000px;
+				background: rgb(253, 235, 251);
+			}
+			
+			#rightmenu {
+				float: left;
+				width: 210px;
+				margin-left: -210px;
+				padding-bottom: 10010px;
+				margin-bottom: -10000px;
+				background: rgb(193, 233, 188);
+			}
+			
+			#footer{
+				clear: left;
+				width: 100%;
+				background: #BCCE98;
+				text-align: center;
+				padding: 5px 0;
+			}
+			
+			.innertube{
+				margin: 15px; /* Padding for content */
+				margin-top: 0;
+			}
+		
+		
+			p {
+				color: #555;
+			}
+	
+			nav ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+			}
+			
+			nav ul a {
+				color: rgba(100, 0, 0, 0.335);
+				text-decoration: none;
+			}
+			
+		</style>
+		
+		<script type="text/javascript">
+			
+			var bodyText
+			function generateText(sentenceCount){
+				for (var i=0; i<sentenceCount; i++)
+				document.write(bodyText[Math.floor(Math.random()*7)]+" ")
+			}
+		</script>	
+	</head>
+	
+	<body>
+			<header id="header">
+				<div class="innertube">
+					<h1>MY PROFILE</h1>
+				</div>
+			</header>
+		<div id="mainwrapper">
+		
+			<div id="contentwrapper">
+				<div id="content">
+					<div class="innertube">
+						<h1>Profile summary</h1>
+						<p><b>Minawa Farouk </b>is a Ugandan Health specialist with a MSc Pharmacognosy Research
+							with significant expertise in: Health Policy and Systems Research; Research Methodology,
+							Health Services Management (HealthPlanning, Quality Assurance and Patient Safety,
+							Health Service Supplies Chain Management, Management of HumanResources for Health, Hospital Management, Health Care Cost Analysis, Organisational Development, Leadership and
+						    Management), Global Health (Migrant Health, Emerging and Re-emerging Diseases of Epidemic Potential, Health Care in
+                            Conflict and Post-conflict areas, International Humanitarian Law and Health), Health Promotion, Health Economics and
+						    Health Financing; Environmental Health, Occupational Health, Epidemiology and Biostatistics, and Population and
+						    Reproductive Health. He also has significant experience in teaching adult learners in face-to-face and online settings using
+						    Moodle Learning Management System and teleconferencing with Skype, WizIQ and Zoom. He has expertise in the
+						    management and governance of higher education institutions in African settings. He has strong scientific writing and editorial
+						    skills. He has worked as a  Public Health researcher, health project manager, public health technical
+						    advisor and Leadership Training consultant
+						</p>
+						
+						<h1>Key interests</h1>
+						<p>His focal areas of interest are: human resources for health, with a special focus on human resource planning and projection;
+							health labour export and migration; health policy, health planning and management; health financing, quality of care and	
+						    patient safety, hospital management; cost analysis, economic impact assessment of health care projects, health programme
+						    evaluation, monitoring, evaluation and learning (MEL), communicable disease control, non-communicable disease control;
+						    and health systems research
+						</p>
+						
+						<p><script>generateText(15)</script></p></div>
+				</div>
+			</div>
+			
+			<nav id="leftmenu">
+				<div class="innertube">
+					<p><script type="text/javascript">generateText(5)</script></p>
+				</div>
+			</nav>
+			
+			<nav id="rightmenu">
+				<div class="innertube">
+					<h3>Bio Data</h3>
+					<ul>
+						<li><b>Name:</b>Farouk</li>
+						<li><b>Age:</b>25</li>
+						<li><b>sex:</b> Male</li>
+						<li><b>Marital status:</b>Single</li>
+		
+					</ul>
+					<h3>Education background</h3>
+					<ul>
+						<li> MSc Pharmacognosy</li>
+						<li>BSc Biological Sciencses</li>
+						<li> UACE</li>
+						<li>UCE</li>
+						<li>PLE</li>
+					</ul>
+					<h3>Work experience</h3>
+					<ul>
+						<li>THETA Uganda</li>
+						<li>IDI</li>
+						<li>PROMETRA Uganda</li>
+						<li>MUK</li>
+						
+					</ul>
+				</div>
+			</nav>
+		</div>
+			<footer id="footer">
+				<div class="innertube">
+					<h3> Adress</h3>
+					<P> Plot 725/6, Mawanda Road<br>
+					kamwokya, Kampala. Uganda</P>
+				</div>
+			</footer>
+	
+	</body>
+
+</html>
